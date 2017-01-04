@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_select_image2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.byd.james.topspeedserver.ui.activitys.SelectImage2Activity">
+    <include
+        android:id="@+id/toolbar_select_image"
+        layout="@layout/toolbar_layout"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/select_image_recyclerView2"
+        android:layout_below="@id/toolbar_select_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/select_image">
+        <TextView
+            android:id="@+id/select_image_allAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:onClick="selectClick2"
+            android:textColor="@color/colorFloating"
+            android:text="@string/select_image_addAll"
+            android:textSize="16sp"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:cardElevation="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:paddingBottom="5dp">
+            <Button
+                android:id="@+id/select_image_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/colorFloating"
+                android:text="@string/select_image_submit"
+
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:onClick="selectClick2"/>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.byd.james.topspeedserver.widget.theme.ColorRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:paddingTop="20dp"
+    android:background="?attr/colorPrimary">
+    <com.byd.james.topspeedserver.widget.theme.ColorTextView
+        android:id="@+id/title_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+</com.byd.james.topspeedserver.widget.theme.ColorRelativeLayout>
