@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_boutique_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+    <!--加载动画-->
+    <com.byd.james.topspeedserver.widget.Loading
+        android:id="@+id/fragment_boutique_loading"
+        style="@style/loading_style"
+        />
+</FrameLayout>

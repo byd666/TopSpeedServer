@@ -8,7 +8,7 @@ import com.byd.james.topspeedserver.presenter.FindPresenter;
 import com.byd.james.topspeedserver.ui.view.FindView;
 
 import butterknife.BindView;
-
+/*发现模块*/
 public class FindFragment extends BaseFragment {
     @BindView(R.id.fragment_find_findView)
     FindView findView;
@@ -27,7 +27,7 @@ public class FindFragment extends BaseFragment {
         mPresenter=new FindPresenter(findView);
     }
 
-    @Override
+    @Override//为了下一次加载数据
     protected void layFetchData() {
         ((FindPresenter)mPresenter).getData();
     }

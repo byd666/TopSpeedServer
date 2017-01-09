@@ -5,9 +5,10 @@
     tools:context="com.byd.james.topspeedserver.ui.fragment.BoutiqueFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.byd.james.topspeedserver.ui.view.BoutiqueView
+        android:id="@+id/boutique_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="精品" />
+         />
 
 </FrameLayout>

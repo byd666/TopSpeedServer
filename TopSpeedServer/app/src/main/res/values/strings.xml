@@ -61,4 +61,7 @@
 
     <string name="tv_nomore">没有更多，点击换下一批</string>
     <string name="button_more">下一批</string>
+
+    <string name="tv_more">更多</string>
+    <string name="item_title">标题</string>
 </resources>

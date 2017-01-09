@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import com.byd.james.topspeedserver.ui.activitys.SelectImageActivity;
 import com.byd.james.topspeedserver.ui.activitys.ShareMoodActivity;
+import com.byd.james.topspeedserver.ui.activitys.VideoListActivity;
 import com.byd.james.topspeedserver.ui.activitys.WelcomeActivity;
 
 import java.util.ArrayList;
@@ -53,6 +54,13 @@ public class JumpUtils {
         Bundle bundle=new Bundle();
         bundle.putStringArrayList("imageShow", list);
         intent.putExtras(bundle);
+        context.startActivity(intent);
+    }
+    //跳转到更多的activity
+    public static void jump2VideoListActivity(Context context, String catalogId, String title) {
+        Intent intent = new Intent(context, VideoListActivity.class);
+        intent.putExtra("catalogId", catalogId);
+        intent.putExtra("title", title);
         context.startActivity(intent);
     }
 }

@@ -20,6 +20,7 @@ public class VideoType {
     public String phoneNumber;
     public String userPic;
     public String time;
+    public String showType;
     public String likeNum;
     @SerializedName("childList")
     public List<VideoInfo> childList;

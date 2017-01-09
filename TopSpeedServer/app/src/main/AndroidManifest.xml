@@ -67,7 +67,8 @@
 
         <activity android:name=".ui.activitys.SelectImageActivity" />
         <activity android:name=".ui.activitys.SelectImage2Activity" />
-        <activity android:name=".ui.activitys.RegisterActivity"></activity>
+        <activity android:name=".ui.activitys.RegisterActivity" />
+        <activity android:name=".ui.activitys.VideoInfoActivity"></activity>
     </application>
 
 </manifest>
